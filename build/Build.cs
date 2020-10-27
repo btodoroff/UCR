@@ -84,7 +84,7 @@ class Build : NukeBuild
                     .SetWorkingDirectory(IoWrapperDirectory)
                     .SetSolutionFile(IoWrapperSolution)
                     .SetVerbosity(MSBuildVerbosity.Quiet)
-                    .SetTargets("Restore","Rebuild")
+                    //.SetTargets("Restore","Rebuild")
                     .SetConfiguration(Configuration)
             );
 
